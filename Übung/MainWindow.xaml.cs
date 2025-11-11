@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Net.NetworkInformation;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -11,14 +12,21 @@ using System.Windows.Shapes;
 
 namespace Übung
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+
+            
+        }
+
+        private void btn01_Click(object sender, RoutedEventArgs e)
+        {
+
+            txt1.Text = "Hallo man";
+
         }
     }
 }
