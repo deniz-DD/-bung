@@ -170,10 +170,9 @@
          Height="48"
          Width="64" />
                 <!--Ende Zeile 3-->
-        <!--Obere Zeile-->
+        <!--Start Untere Zeile-->
         <Button 
         Content="Button"
-        Name="btn"
         Foreground="White"
         Background="DarkSlateGray"
         HorizontalAlignment="Left"
@@ -216,7 +215,7 @@
         Height="48"
         Width="52"/>
 
-        <!--Ende Obere Zeile-->
+        <!--Ende Untere Zeile-->
 
 
     </Grid>
