@@ -5,8 +5,219 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Übung"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="314" Background="Black">
+
     <Grid>
+        <Border BorderBrush="White" BorderThickness="1" Margin="10,0,10,305">
+            <TextBlock Text="TextBlock"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="55"
+                       Foreground="White"/>
+        </Border>
+
+
+        <!--Obere Zeile-->
+        <Button 
+                Content="Button"
+                Name="btn"
+                Foreground="White"
+                Background="DarkSlateGray"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Margin="67,0,0,252"
+                Height="48"
+                Width="52"/>
+        <Button
+              Content="Button"
+              Foreground="White"
+              Background="DarkSlateGray"
+              HorizontalAlignment="Left"
+              VerticalAlignment="Bottom"
+              Margin="181,0,0,252"
+              Height="48"
+              Width="54"/>
+        <Button Content="Button"
+                     Name="btnClear"
+              Foreground="White"
+              Background="DarkSlateGray"
+              HorizontalAlignment="Left"
+              VerticalAlignment="Top"
+              Margin="240,134,0,0"
+              Height="48"
+              Width="64" Click="btnClear_Click"/>
+        <Button Content="Button"
+                Foreground="White"
+                Background="DarkSlateGray"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="124,134,0,0"
+                Height="48"
+                Width="52"/>
+        <Button Content="Button"
+                Foreground="White"
+                Background="DarkSlateGray"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Margin="10,0,0,252"
+                Height="48"
+                Width="52"/>
+
+        <!--Ende Obere Zeile-->
+        <!--Start Zeile 1-->
+        <Button Content="Button"
+                Foreground="White"
+                Background="DarkSlateGray"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                Margin="10,0,0,0"
+                Height="48"
+                Width="52"/>
+        <Button Content="Button"
+               Foreground="White"
+             Background="DarkSlateGray"
+             HorizontalAlignment="Left"
+             VerticalAlignment="Center"
+             Margin="67,0,0,0"
+             Height="48"
+             Width="52"/>
+        <Button Content="Button"
+            Foreground="White"
+          Background="DarkSlateGray"
+          HorizontalAlignment="Left"
+          VerticalAlignment="Center"
+          Margin="124,0,0,0"
+          Height="48"
+          Width="52"/>
+       
+        <Button Content="Button"
+           Foreground="White"
+           Background="DarkSlateGray"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Center"
+           Margin="240,0,0,0"
+           Height="48"
+           Width="64" />
+        <!--Ende Zeile 1-->
+        <!--Start Zeile 2-->
+        <Button Content="Button"
+         Foreground="White"
+         Background="DarkSlateGray"
+         HorizontalAlignment="Left"
+         VerticalAlignment="Top"
+         Margin="10,253,0,0"
+         Height="48"
+         Width="52"/>
+        <Button Content="Button"
+        Foreground="White"
+      Background="DarkSlateGray"
+      HorizontalAlignment="Left"
+      VerticalAlignment="Top"
+      Margin="67,253,0,0"
+      Height="48"
+      Width="52"/>
+        <Button Content="Button"
+     Foreground="White"
+   Background="DarkSlateGray"
+   HorizontalAlignment="Left"
+   VerticalAlignment="Top"
+   Margin="124,253,0,0"
+   Height="48"
+   Width="52"/>
+  
+        <Button Content="Button"
+    Foreground="White"
+    Background="DarkSlateGray"
+    HorizontalAlignment="Left"
+    VerticalAlignment="Top"
+    Margin="239,253,0,0"
+    Height="48"
+    Width="64" />
+        <!--Ende Zeile 2-->
+        <!--Start Zeile 3-->
+                <Button Content="Button"
+              Foreground="White"
+              Background="DarkSlateGray"
+              HorizontalAlignment="Left"
+              VerticalAlignment="Top"
+              Margin="10,312,0,0"
+              Height="48"
+              Width="52"/>
+                <Button Content="Button"
+             Foreground="White"
+           Background="DarkSlateGray"
+           HorizontalAlignment="Left"
+           VerticalAlignment="Top"
+           Margin="67,312,0,0"
+           Height="48"
+           Width="52"/>
+                <Button Content="Button"
+          Foreground="White"
+        Background="DarkSlateGray"
+        HorizontalAlignment="Left"
+        VerticalAlignment="Top"
+        Margin="124,312,0,0"
+        Height="48"
+        Width="52"/>
+
+                <Button Content="Button"
+         Foreground="White"
+         Background="DarkSlateGray"
+         HorizontalAlignment="Left"
+         VerticalAlignment="Top"
+         Margin="239,312,0,0"
+         Height="48"
+         Width="64" />
+                <!--Ende Zeile 3-->
+        <!--Obere Zeile-->
+        <Button 
+        Content="Button"
+        Name="btn"
+        Foreground="White"
+        Background="DarkSlateGray"
+        HorizontalAlignment="Left"
+        VerticalAlignment="Bottom"
+        Margin="67,0,0,252"
+        Height="48"
+        Width="52"/>
+        <Button
+      Content="Button"
+      Foreground="White"
+      Background="DarkSlateGray"
+      HorizontalAlignment="Left"
+      VerticalAlignment="Bottom"
+      Margin="181,0,0,252"
+      Height="48"
+      Width="54"/>
+        <Button Content="Button"
+   
+      Foreground="White"
+      Background="DarkSlateGray"
+      HorizontalAlignment="Left"
+      VerticalAlignment="Top"
+      Margin="240,134,0,0"
+      Height="48"
+      Width="64" Click="btnClear_Click"/>
+        <Button Content="Button"
+        Foreground="White"
+        Background="DarkSlateGray"
+        HorizontalAlignment="Left"
+        VerticalAlignment="Top"
+        Margin="124,134,0,0"
+        Height="48"
+        Width="52"/>
+        <Button Content="Button"
+        Foreground="White"
+        Background="DarkSlateGray"
+        HorizontalAlignment="Left"
+        VerticalAlignment="Bottom"
+        Margin="10,0,0,252"
+        Height="48"
+        Width="52"/>
+
+        <!--Ende Obere Zeile-->
+
 
     </Grid>
 </Window>

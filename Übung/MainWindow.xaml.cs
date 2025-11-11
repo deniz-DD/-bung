@@ -20,5 +20,10 @@ namespace Übung
         {
             InitializeComponent();
         }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
