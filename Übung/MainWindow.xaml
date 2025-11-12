@@ -88,8 +88,8 @@
             <Button Grid.Row="2" Grid.Column="3" Content="−" Style="{StaticResource CalcButton}"/>
 
             <!-- Zeile 3 -->
-            <Button Grid.Row="3" Grid.Column="0" Content="1" Style="{StaticResource CalcButton}"/>
-            <Button Grid.Row="3" Grid.Column="1" Content="2" Style="{StaticResource CalcButton}"/>
+            <Button Name="btn1" Grid.Row="3" Grid.Column="0" Content="1" Style="{StaticResource CalcButton}" Click="Button_Click"/>
+            <Button Name="btn2"  Grid.Row="3" Grid.Column="1" Content="2" Style="{StaticResource CalcButton}"/>
             <Button Grid.Row="3" Grid.Column="2" Content="3" Style="{StaticResource CalcButton}"/>
             <Button Grid.Row="3" Grid.Column="3" Content="+" Style="{StaticResource CalcButton}"/>
 
