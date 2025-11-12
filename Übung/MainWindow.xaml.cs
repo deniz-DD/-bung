@@ -21,10 +21,7 @@ namespace Übung
             InitializeComponent();
         }
 
-        private void btn2_Click(object sender, RoutedEventArgs e)
-        {
 
-        }
 
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
@@ -32,6 +29,19 @@ namespace Übung
         }
 
         private void btn1_Click(object sender, RoutedEventArgs e)
+        {
+            txt_down.Text += "1";
+        }
+        private void btn2_Click(object sender, RoutedEventArgs e)
+        {
+            txt_down.Text += "2";
+        }
+        private void btn3_Click(object sender, RoutedEventArgs e)
+        {
+            txt_down.Text += "3";
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }

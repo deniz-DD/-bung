@@ -38,18 +38,20 @@
                     <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
                 <TextBlock Grid.Row="0"
+                           Name="txt_up"
                            Text="{Binding HistoryText}" 
                            TextAlignment="Right" 
                            Opacity="0.65" 
                            FontSize="12"/>
                 <TextBox Grid.Row="1"
+                         Name="txt_down"
                          Text="{Binding DisplayText, FallbackValue=0}"
                          IsReadOnly="True"
                          BorderThickness="0"
                          Background="Transparent"
                          FontSize="28"
                          HorizontalContentAlignment="Right"
-                         VerticalContentAlignment="Center"/>
+                         VerticalContentAlignment="Center" TextChanged="TextBox_TextChanged" HorizontalAlignment="Left" Width="280"/>
             </Grid>
         </Border>
 
@@ -88,9 +90,9 @@
             <Button Grid.Row="2" Grid.Column="3" Content="−" Style="{StaticResource CalcButton}"/>
 
             <!-- Zeile 3 -->
-            <Button Name="btn1" Grid.Row="3" Grid.Column="0" Content="1" Style="{StaticResource CalcButton}" Click="Button_Click"/>
-            <Button Name="btn2"  Grid.Row="3" Grid.Column="1" Content="2" Style="{StaticResource CalcButton}"/>
-            <Button Grid.Row="3" Grid.Column="2" Content="3" Style="{StaticResource CalcButton}"/>
+            <Button Name="btn1" Grid.Row="3" Grid.Column="0" Content="1" Style="{StaticResource CalcButton}" Click="btn1_Click"/>
+            <Button Name="btn2"  Grid.Row="3" Grid.Column="1" Content="2" Style="{StaticResource CalcButton}" Click="btn2_Click" HorizontalAlignment="Left" Width="75"/>
+            <Button Name="btn3" Grid.Row="3" Grid.Column="2" Content="3" Style="{StaticResource CalcButton}" Click="btn3_Click"/>
             <Button Grid.Row="3" Grid.Column="3" Content="+" Style="{StaticResource CalcButton}"/>
 
             <!-- Zeile 4 -->
